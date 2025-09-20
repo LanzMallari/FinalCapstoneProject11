@@ -18,6 +18,7 @@ const panoramaData = [
    ...hrsecondfloor,
     ...hrthirdfloor,
     ...hrfourthfloor,
+    ...hrfirstfloor,
 
 
  ...sdtoolfbldg,
