@@ -1,20 +1,35 @@
 const hrfirstfloor =[
-{  //connects to scs2nd to scs3rd
+
+
+ {  //connects to scs2nd to scs3rd
+    id: 'shortcutsdtoccs',
+    name: 'ShortCuttoCCS',
+    description: 'HR bldg. 1st floor',
+    imageUrl: 'images/HRbldg/sdShortcutToDepartmentOffices.jpg',
+    category: ['HR bldg.'],
+    connections: ['SdGroundfloor10','Hr1rd1'],
+    arrowPositions: {
+        'SdGroundfloor10': { phi: Math.PI / 3, theta: Math.PI * 1.65, direction: 'up'},
+        'Hr1rd1': { phi: Math.PI / 3, theta: Math.PI * 1.1, direction: 'up'}
+
+       }
+},
+    {  //connects to scs2nd to scs3rd
     id: 'Hr1rd1',
     name: 'CCS OFFICE',
     description: 'HR bldg. 1st floor',
     imageUrl: 'images/HRbldg/HR1stfloor2.jpg',
     category: ['HR bldg.'],
-    connections: ['Sd3rdfloor308','Hr1rd2'],
+    connections: ['shortcutsdtoccs','Hr1rd2'],
     arrowPositions: {
-        'Sd3rdfloor308': { phi: Math.PI / 3, theta: Math.PI * .9, direction: 'up'},
+        'shortcutsdtoccs': { phi: Math.PI / 3, theta: Math.PI * .9, direction: 'up'},
         'Hr1rd2': { phi: Math.PI / 3, theta: Math.PI * 2.25, direction: 'up'}
 
        }
 },
 
 {  //connects to scs2nd to scs3rd
-    id: 'Hr1rd2',
+    id: 'Hr1rd2', 
     name: 'CLA/CED OFFICE',
     description: 'HR bldg. 3rd floor',
     imageUrl: 'images/HRbldg/HR1stfloor1.jpg',
