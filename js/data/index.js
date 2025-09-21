@@ -2,7 +2,7 @@
 const panoramaData = [
   ...entrancePanoramas,
 // SCS BUILDING
-...olfbldg1,
+
     ...scsfirstfloor,
   ...scssecondfloor,
  ...scsthirdfloor,
