@@ -1,4 +1,4 @@
-const olfbldg = [
+const olfbldg1 = [
  {
     id: 'olfgroundfloor1',
     name: 'OLF bldg Lounge',

@@ -24,9 +24,9 @@ const panoramaData = [
     ...olf3rdbldg,
     ...olf4thbldg,
 
-
- ...sdtoolfbldg,
- ...olfbldg
+    ...olfbldg1,
+    ...sdtoolfbldg,
+ 
 
 
   // add other files here
